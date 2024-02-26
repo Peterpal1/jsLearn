@@ -5,17 +5,8 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
+            "name": "trail",
             "program": "\\assets\\trail.js"
         },
-        {
-            "type": "node-terminal",
-            "name": "JavaScript Debug Terminal",
-            "request": "launch",
-            "cwd": "${workspaceFolder}"
-        }
     ]
 }

@@ -7,10 +7,10 @@ y=20;
 const z =30;
 
 
-for (var i = 0; i<10;i++){
-console.log(i);
-}
-console.log(i);
+//for (var i = 0; i<10;i++){
+//console.log(i);
+//}
+//console.log(i);
 
 function greet(){
     console.log("hellow");
@@ -38,18 +38,13 @@ const person={
     fname:"Silfanus",
     lname:"Omollo"
 }
-console.log(person.fname+" "+person.lname)
+//console.log(person.fname+" "+person.lname)
 
-const{Fname,Lname}=person;
-    Fname:"Sylvan",
-    Lname;"Omollo"
+//const{Fname,Lname}=person;
+ //   Fname:"Sylvan",
+  //  Lname;"Omollo"
 
-console.log(fname+" "+lname)
+//console.log(fname+" "+lname)
 
 //spread operator
-console.log({...person});
-
-//promise
-function pro(){
-    fetch("https://jsonplaceholder.typicode.com/users")
-}
+//console.log({...person});
