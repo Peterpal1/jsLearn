@@ -13,7 +13,7 @@ async function getimage(){
        // console.log(item.urls.regular);
        let img = document.createElement("img");
        img.src = item.urls.regular;
-       images.appendChild(img);
+       img.appendChild(img);
     
     });
     console.log(res)
