@@ -13,14 +13,14 @@ const z =30;
 //console.log(i);
 
 function greet(){
-    console.log("hellow");
+console.log("hello");
 }
 greet();
 
 function add(a,b){
-    console.log(a+b);
+console.log(a+b);
 }
-add(10,20);
+//add(10,20);
 
 //arrow fuunction
 ()=>{
@@ -29,9 +29,9 @@ add(10,20);
 
 const fname="Silfanus"
 const lname="Omollo"
-console.log(fname+" "+lname)
+//console.log(fname+" "+lname)
 
-console.log(`hello ${fname} ${lname}`);
+//console.log(`hello ${fname} ${lname}`);
 
 //object
 const person={
